@@ -327,6 +327,6 @@ app.delete("/api/getMemoryWallById/:id/about", (req, res) => {
 });
 
 // start server
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
